@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "BoonTook";
+  src: url("/fonts/BoonTook-Regular.otf");
+}
+
+@layer components {
+  .text-piggy-title {
+    color: #ff8002;
+    position: relative;
+    text-shadow: 5px 5px 3px #FFCE88FF;
+  }
+
+  .text-piggy-title:before {
+    content: "SMART PIGGY BANK";
+    position: absolute;
+    inset: 0;
+    display: none;
+  }
+}
+
+@layer utilities {
+  .text-shadow-custom {
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.53);
+    
+  }
+
+
+
+
+}
